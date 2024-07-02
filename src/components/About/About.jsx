@@ -1,4 +1,4 @@
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/me-about.png";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
 import "./About.css";
@@ -23,7 +23,7 @@ function About() {
             <article className="about-card">
               <VscFolderLibrary className="about-icon" />
               <h5>Projects</h5>
-              <small>8 Completed</small>
+              <small>5 Completed</small>
             </article>
           </div>
           <p>
