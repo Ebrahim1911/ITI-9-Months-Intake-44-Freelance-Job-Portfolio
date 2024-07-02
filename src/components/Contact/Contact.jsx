@@ -32,14 +32,14 @@ function Contact() {
               Send a Message
             </a>
           </article>
-          <article className="contact-option">
+          {/* <article className="contact-option">
             <RiMessengerLine className="contact-option-icon" />
             <h4>Messenger</h4>
             <h5>Youmna Ali mohamed</h5>
             <a href="https://m.me/YouMnaAli" target="_blank">
               Send a Message
             </a>
-          </article>
+          </article> */}
           <article className="contact-option">
             <BsWhatsapp className="contact-option-icon" />
             <h4>WhatsApp</h4>
