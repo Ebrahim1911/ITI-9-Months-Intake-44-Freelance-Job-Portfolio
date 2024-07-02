@@ -53,9 +53,9 @@ textarea {
   -ms-border-radius: 0.5rem;
   -o-border-radius: 0.5rem;
   background: transparent;
-  border: 2px solid var(--color-primary-variant);
+  border: 2px solid var(--color-primary);
   resize: none;
-  color: var(--color-white);
+  color: var(--color-primary);
 }
 /* Start Media Queries (Medium Devices) */
 @media (max-width: 1024px) {
