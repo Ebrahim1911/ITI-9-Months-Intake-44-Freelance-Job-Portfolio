@@ -6,9 +6,11 @@ import Services from "./components/Services/Services";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import { Store } from "./RTK/Store";
+import { Provider } from "react-redux";
 function App() {
   return (
-    <>
+    <Provider store={Store}>
       <Header />
       <Nav />
       <About />
@@ -17,7 +19,7 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer />
-    </>
+    </Provider>
   );
 }
 
